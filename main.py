@@ -1,3 +1,3 @@
-import delmdPIL
+import utils
 
-delmdPIL.clear_exif('./img/000.png')
+utils.walk_dir("./img/", "./img_delMD/")
