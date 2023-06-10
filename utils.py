@@ -20,7 +20,7 @@ def clear_exif(img_path, output_path):
             im.save(output_path, format='PNG')
         except Exception as e:
             # If there's an error while saving the image, print an error message
-            print(f"Error al guardar {output_path}")
+            print(f"Error to save {output_path}")
             raise e
 
 def process_image(args):
